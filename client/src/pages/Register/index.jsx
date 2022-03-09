@@ -6,7 +6,8 @@ import axios from 'axios';
 import { init } from 'ityped';
 
 // SERVER API URL
-const apiUrl = "http://localhost:4000/api"
+// const apiUrl = "http://localhost:4000/api"
+const apiUrl = "https://bussin.herokuapp.com/api"
 
 export const Register = () => {
 // useRef hooks for email/password
